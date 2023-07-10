@@ -56,7 +56,7 @@ toggleButtons.forEach(item => {
 
 const createDivElement = () => {
 
-  for (let i = 0; i < 11; i++) {
+  for (let i = 0; i < 100; i++) {
     const divElem = document.createElement('div');
     divElem.textContent = `div_${i + 1}`;
     divElem.classList.add('container__element');
